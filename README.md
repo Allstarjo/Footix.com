@@ -1,129 +1,129 @@
-# ⚽ Footix - Jeu de Football en Ligne
+# ⚽ Footix.com - Online Football Game
 
-Projet ambitieux de jeu de football multijoueur en ligne développé avec React et JavaScript.
+Ambitious online multiplayer football game project developed with React and JavaScript.
 
-> ⚠️ **Projet en développement** - Actuellement en pause, mais les fondations sont posées.
+> ⚠️ **Project in Development** - Currently on pause, but foundations are established.
 
 ## 📋 Description
 
-AllStar est un projet de jeu de football en ligne qui vise à créer une expérience multijoueur interactive. Le projet explore les concepts de game development web avec React et les interactions en temps réel.
+AllStar is an online football game project aiming to create an interactive multiplayer experience. The project explores web game development concepts with React and real-time interactions.
 
-## 🎯 Objectifs du projet
+## 🎯 Project Goals
 
-- Créer un jeu de football jouable dans le navigateur
-- Implémenter un système multijoueur en ligne
-- Développer une physique de jeu réaliste
-- Interface moderne et responsive avec React
+- Create a browser-based playable football game
+- Implement online multiplayer system
+- Develop realistic game physics
+- Modern and responsive interface with React
 
-## ✨ Fonctionnalités prévues
+## ✨ Planned Features
 
-- ⚽ **Gameplay football** avec contrôles fluides
-- 👥 **Mode multijoueur** en temps réel
-- 🎮 **Système de matchmaking** pour trouver des adversaires
-- 📊 **Statistiques de joueur** et classements
-- 🏆 **Système de tournois** et compétitions
-- 🎨 **Interface moderne** avec React
+- ⚽ **Football gameplay** with smooth controls
+- 👥 **Real-time multiplayer** mode
+- 🎮 **Matchmaking system** to find opponents
+- 📊 **Player statistics** and rankings
+- 🏆 **Tournament system** and competitions
+- 🎨 **Modern interface** with React
 
-## 🛠️ Technologies utilisées
+## 🛠️ Technologies Used
 
 ### Frontend
-- **React.js** - Framework principal pour l'interface
-- **JavaScript (ES6+)** - Logique de jeu
-- **HTML5 Canvas** - Rendu graphique du jeu
-- **CSS3** - Styling et animations
+- **React.js** - Main framework for interface
+- **JavaScript (ES6+)** - Game logic
+- **HTML5 Canvas** - Game graphics rendering
+- **CSS3** - Styling and animations
 
-### Concepts explorés
-- Game loop et animation
-- Gestion des entrées utilisateur
-- Physique de jeu 2D
-- State management pour le jeu
-- Programmation orientée composants
+### Concepts Explored
+- Game loop and animation
+- User input management
+- 2D game physics
+- State management for games
+- Component-oriented programming
 
-## 🚀 Installation (Version de développement)
+## 🚀 Installation (Development Version)
 
 ```bash
-# Cloner le repository
+# Clone the repository
 git clone https://github.com/Allstarjo/AllStar.git
 cd AllStar
 
-# Installer les dépendances
+# Install dependencies
 npm install
 
-# Lancer le serveur de développement
+# Start development server
 npm start
 ```
 
-L'application sera accessible sur `http://localhost:3000`
+Application will be accessible at `http://localhost:3000`
 
-## 📊 Structure du projet
+## 📊 Project Structure
 
 ```
 AllStar/
 ├── src/
-│   ├── components/        # Composants React
-│   │   ├── Game/         # Composants du jeu
-│   │   ├── UI/           # Interface utilisateur
-│   │   └── Menu/         # Menus et navigation
-│   ├── engine/           # Moteur de jeu
-│   │   ├── physics.js    # Physique du jeu
-│   │   ├── entities.js   # Entités du jeu (joueurs, ballon)
-│   │   └── collision.js  # Détection de collisions
-│   ├── utils/            # Utilitaires
-│   └── App.js            # Point d'entrée
+│   ├── components/        # React components
+│   │   ├── Game/         # Game components
+│   │   ├── UI/           # User interface
+│   │   └── Menu/         # Menus and navigation
+│   ├── engine/           # Game engine
+│   │   ├── physics.js    # Game physics
+│   │   ├── entities.js   # Game entities (players, ball)
+│   │   └── collision.js  # Collision detection
+│   ├── utils/            # Utilities
+│   └── App.js            # Entry point
 ├── public/
 └── package.json
 ```
 
-## 🎮 Fonctionnalités actuelles
+## 🎮 Current Features
 
-### ✅ Implémenté
-- Structure de base du projet React
-- Interface utilisateur principale
-- Composants de jeu de base
-- Configuration initiale
+### ✅ Implemented
+- Basic React project structure
+- Main user interface
+- Basic game components
+- Initial configuration
 
-### 🚧 En cours
-- Logique de gameplay
-- Système de physique
-- Contrôles joueur
+### 🚧 In Progress
+- Gameplay logic
+- Physics system
+- Player controls
 
-### 📋 À venir
-- Multijoueur en temps réel
-- Backend pour gestion des parties
-- Système de matchmaking
-- Base de données des joueurs
+### 📋 Upcoming
+- Real-time multiplayer
+- Backend for game management
+- Matchmaking system
+- Player database
 
-## 🎯 Défis techniques
+## 🎯 Technical Challenges
 
-Ce projet m'a permis d'explorer :
-- Architecture d'un jeu web avec React
-- Canvas API et rendu graphique
-- Gestion d'état complexe dans un jeu
-- Optimisation des performances
-- Design patterns pour le game development
+This project allowed me to explore:
+- Web game architecture with React
+- Canvas API and graphics rendering
+- Complex state management in games
+- Performance optimization
+- Design patterns for game development
 
-## 🔮 Vision future
+## 🔮 Future Vision
 
-Le projet est actuellement en pause mais pourrait évoluer vers :
-- Version multijoueur complète avec WebSocket
-- Mode carrière solo
-- Customisation des équipes et joueurs
-- Système de replay des matchs
-- Application mobile (React Native)
+The project is currently on pause but could evolve towards:
+- Complete multiplayer version with WebSocket
+- Solo career mode
+- Team and player customization
+- Match replay system
+- Mobile application (React Native)
 
-## 📚 Ce que j'ai appris
+## 📚 What I Learned
 
-- ✅ React pour des applications interactives complexes
-- ✅ Canvas API et rendu graphique
-- ✅ Architecture d'un jeu web
-- ✅ Gestion d'état dans un contexte de jeu
-- ✅ Optimisation et performance
+- ✅ React for complex interactive applications
+- ✅ Canvas API and graphics rendering
+- ✅ Web game architecture
+- ✅ State management in game context
+- ✅ Optimization and performance
 
-## 💡 Pourquoi ce projet ?
+## 💡 Why This Project?
 
-Passionné de football (joueur en R2) et de développement, j'ai voulu combiner ces deux passions en créant un jeu qui mêle sport et technologie.
+As a football enthusiast (Regional 2 player) and developer, I wanted to combine these two passions by creating a game that merges sports and technology.
 
-## 👤 Auteur
+## 👤 Author
 
 **Jonathan Amon**
 - GitHub: [@Allstarjo](https://github.com/Allstarjo)
@@ -135,4 +135,4 @@ MIT License
 
 ---
 
-⭐ Projet ambitieux en développement - Les contributions et suggestions sont les bienvenues !
+⭐ Ambitious project in development - Contributions and suggestions are welcome!
